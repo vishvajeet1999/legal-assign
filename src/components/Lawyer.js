@@ -17,7 +17,6 @@ function Lawyer(props) {
       }, 0)
       
     );
-    console.log(availability)
 
   }, [lawyers.lawyers]);
   const handler = (index, companyId, name, lawyerId, speciality, e) => {
