@@ -7,7 +7,6 @@
                 "id": 1,
                 "name": "Kapil Sibbal",
                 "speciality": "Divorce Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [0,0,0,0,0,0,0,0,0,0]
             },
@@ -15,7 +14,6 @@
                 "id": 2,
                 "name": "Mukul Rohtagi",
                 "speciality": "Criminal Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [1,0,0,1,0,0,1,0,0,1]
             },
@@ -23,7 +21,6 @@
                 "id": 3,
                 "name": "Ram Jethmalani.",
                 "speciality": "Property Dispute Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [0,0,1,1,1,1,1,0,0,1]
             }
@@ -37,7 +34,6 @@
                 "id": 4,
                 "name": "Fali Sam Nariman",
                 "speciality": "Divorce Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [1,0,1,0,0,1,1,0,0,1]
             },
@@ -45,7 +41,6 @@
                 "id": 5,
                 "name": "Soli Sorabjee",
                 "speciality": "Criminal Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [1,0,0,1,1,1,0,0,0,1]
             },
@@ -53,7 +48,6 @@
                 "id": 6,
                 "name": "Gopal Subramanium.",
                 "speciality": "Property Dispute Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [0,0,1,1,1,1,1,0,0,0]
             }
@@ -67,7 +61,6 @@
                 "id": 7,
                 "name": "Abhishek Manu Singhvi",
                 "speciality": "Divorce Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [1,1,0,1,1,1,0,0,1,1]
             },
@@ -75,7 +68,6 @@
                 "id": 8,
                 "name": "K. K. Venugopal",
                 "speciality": "Criminal Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [1,0,0,1,1,1,1,0,0,1]
             },
@@ -83,7 +75,6 @@
                 "id": 9,
                 "name": "Harish Salve.",
                 "speciality": "Property Dispute Lawyer",
-                "availability": "Yes",
                 "costPerAppintment": 1000,
                 "availability": [1,1,1,1,1,1,1,1,0,1]
             }

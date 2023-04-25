@@ -1,17 +1,20 @@
-import React, { useState } from 'react'
-import Company from '../components/Company'
-import { useDispatch, useSelector } from 'react-redux'
+import { useEffect, useState } from "react";
+import Company from "../components/Company";
+import { useSelector } from "react-redux";
 
 function Companies() {
-    const dispatch = useDispatch()
-    const lawyers = useSelector(state => state.lawyers)
-
-    const [a] = useState([1,2,3])
+  const lawyers = useSelector((state) => state.lawyers);
+  const [lawyersArr, setLawyersArr] = useState([]);
+  useEffect(()=>{
+    setLawyersArr(lawyers.lawyers);
+  },[lawyers])
   return (
     <div>
-        {lawyers.lawyers.map(res => <Company val= {res} />)}
+      {lawyersArr.map((res) => (
+        <Company val={res} />
+      ))}
     </div>
-  )
+  );
 }
 
-export default Companies
+export default Companies;
